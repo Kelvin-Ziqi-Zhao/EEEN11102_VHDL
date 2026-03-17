@@ -1,0 +1,16 @@
+>/opt/oss-cad-suite/lib/ghdl/std/v08/
+../../src/std/v08/textio.vhdl
+>/opt/oss-cad-suite/lib/ghdl/std/v08/
+../../src/std/v08/textio-body.vhdl
+>/opt/oss-cad-suite/lib/ghdl/ieee/v08/
+../../src/ieee2008/std_logic_1164.vhdl
+>/opt/oss-cad-suite/lib/ghdl/ieee/v08/
+../../src/ieee2008/std_logic_1164-body.vhdl
+>/opt/oss-cad-suite/lib/ghdl/ieee/v08/
+../../src/ieee2008/numeric_std.vhdl
+>/opt/oss-cad-suite/lib/ghdl/ieee/v08/
+../../src/ieee2008/numeric_std-body.vhdl
+>
+circuit_tb.vhd
+>
+circuit.vhd

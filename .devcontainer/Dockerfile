@@ -11,11 +11,13 @@ RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip \
     python3-venv \
+    gcc \
     ghdl \
+    yosys \
     && rm -rf /var/lib/apt/lists/*
 
 RUN python3 -m venv /opt/teros-python && \
     /opt/teros-python/bin/pip install --upgrade pip setuptools wheel && \
     /opt/teros-python/bin/pip install edalize vunit-hdl yowasp-yosys cocotb
 
-ENV PATH="/opt/teros-python/bin:/opt/oss-cad-suite/bin:${PATH}"
+ENV PATH="/opt/teros-python/bin:/usr/bin:${PATH}"

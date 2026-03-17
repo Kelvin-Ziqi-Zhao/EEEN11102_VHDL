@@ -1,0 +1,7 @@
+v 4
+file . "circuit_tb.vhd" "f5d50232a1a66684de31767ccb21a613aa30ec9d" "20260316130547.295":
+  entity circuit_tb at 2( 1) + 0 on 13;
+  architecture bench of circuit_tb at 9( 98) + 0 on 14;
+file . "circuit.vhd" "ede664874b7627143a68d8ddb5d4c82b464108d4" "20260316130546.978":
+  entity circuit at 1( 0) + 0 on 11;
+  architecture rtl of circuit at 10( 155) + 0 on 12;
