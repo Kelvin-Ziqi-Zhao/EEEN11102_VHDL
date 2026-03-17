@@ -11,6 +11,5 @@ architecture rtl of circuit is
 signal q : std_logic;
 begin
  q <= a and b;
- --y <= '1';
  y <= not q when enable = '0' else 'Z';
 end architecture;

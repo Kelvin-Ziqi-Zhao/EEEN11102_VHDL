@@ -29,10 +29,24 @@ begin
 
   process
   begin
-    a   <= '0', '1' after 20 ns;
-    b   <= '0', '1' after 40 ns;
-    enable <= '0', '1' after 60 ns, '0' after 80 ns;
+    enable <= '0', '1' after 40 ns;
     wait for 100 ns;
+  end process;
+
+  process
+  begin
+    a <= '0';
+    wait for 10 ns;
+    a <= '1';
+    wait for 10 ns;
+  end process;
+
+  process
+  begin
+    b <= '0';
+    wait for 20 ns;
+    b <= '1';
+    wait for 20 ns;
   end process;
 
 end;
